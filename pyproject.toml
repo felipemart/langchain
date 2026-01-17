@@ -1,0 +1,13 @@
+[project]
+name = "uv-langchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=1.1.7",
+    "langchain-text-splitters>=1.1.0",
+    "langchain[ollama]>=1.2.6",
+    "ollama>=0.6.1",
+    "rich>=14.2.0",
+]
